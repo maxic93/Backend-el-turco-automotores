@@ -1,0 +1,16 @@
+//Variables
+require("./mongo")
+const express = require("express")
+const { readProduct } = require("./controller/carsControl")
+const app = express()
+const PORT = process.env.PORT || 3001
+const cors = require("cors")
+
+//Midlewar
+app.use(cors())
+app.use(express.json())
+app.get("/api", readProduct)
+
+app.use(express.static('public'));
+
+app.listen(PORT, ()=> console.log("server andando"))
