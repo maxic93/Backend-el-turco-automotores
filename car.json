@@ -1,0 +1,6 @@
+{"_id":{"$oid":"63337a811c6d3a8f86446ac5"},
+"img":["https://i.postimg.cc/R092rZNf/Whats-App-Image-2022-09-16-at-18-37-58.jpg","https://i.postimg.cc/Hsqf22m6/Whats-App-Image-2022-09-16-at-18-37-58-1.jpg","https://i.postimg.cc/bvTWqft5/Whats-App-Image-2022-09-16-at-18-37-59.jpg","https://i.postimg.cc/0y7hHw2P/Whats-App-Image-2022-09-16-at-18-37-59-2.jpg","https://i.postimg.cc/9Xn342n5/Whats-App-Image-2022-09-16-at-18-37-59-1.jpg"],
+"price":"12.000.000",
+"km":"60.000",
+"year":{"$numberInt":"2018"},
+"name":"Toyoya Sw4 Sr"}

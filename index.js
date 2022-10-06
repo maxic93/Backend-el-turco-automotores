@@ -14,3 +14,4 @@ app.get("/api", readProduct)
 app.use(express.static('public'));
 
 app.listen(PORT, ()=> console.log("server andando"))
+
